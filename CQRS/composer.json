@@ -1,0 +1,26 @@
+{
+    "name": "standards-demo/cqrs",
+    "require": {
+        "doctrine/orm": "^3.3",
+        "ramsey/uuid-doctrine": "^2.1",
+        "symfony/validator": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "StandardsDemo\\Cqrs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StandardsDemo\\Cqrs\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateusz Rogacki"
+        }
+    ]
+}
