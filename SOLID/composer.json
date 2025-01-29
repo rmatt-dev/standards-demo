@@ -1,0 +1,22 @@
+{
+    "name": "standards-demo/solid",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "StandardsDemo\\Solid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StandardsDemo\\Solid\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateusz Rogacki"
+        }
+    ]
+}

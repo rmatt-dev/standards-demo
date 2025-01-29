@@ -1,4 +1,8 @@
-### Example of using CQRS in an application
+### Design Patterns Examples
+1. [Abstract Factory](src/AbstractFactory/README.md)
+2. [Builder](src/Builder/README.md)
+3. [Facade](src/Facade/README.md)
+4. [Strategy](src/Strategy/README.md)
 
 ### Run tests
 ```shell
